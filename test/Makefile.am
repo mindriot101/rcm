@@ -4,6 +4,7 @@ TESTS = \
 	lsrc-hostname.t \
 	lsrc-sigils.t \
 	lsrc.t \
+	lsrc-symlink-dirs.t \
 	lsrc-tags.t \
 	lsrc-usage.t \
 	mkrc-alternate-dotfiles-dir.t \
