@@ -4,7 +4,8 @@ class Rcm < Formula
   homepage 'http://thoughtbot.github.io/rcm'
   url 'http://thoughtbot.github.io/@PACKAGE@/dist/@DIST_ARCHIVES@'
   sha1 '@DIST_SHA@'
-
+  head 'https://github.com/thoughtbot/rcm.git'
+  
   def install
     system "./configure", "--disable-debug", "--disable-dependency-tracking",
                           "--prefix=#{prefix}"
